@@ -1,7 +1,7 @@
 from selenium import webdriver
 import time
 
-driver = webdriver.Firefox(executable_path="/home/trickster/Drivers/geckodriver-v0.24.0-linux64/geckodriver")
+driver = webdriver.Firefox(executable_path="/home/pranay/Drivers/geckodriver-v0.24.0-linux64/geckodriver")
 
 driver.get("http://newtours.demoaut.com/")  # Flight reservation Application
 print(driver.title)
